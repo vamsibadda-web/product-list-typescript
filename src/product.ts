@@ -18,3 +18,4 @@ export type ApiState<T> = {
   data: T[];
   status: Status;
 };
+

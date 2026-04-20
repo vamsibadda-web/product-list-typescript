@@ -28,11 +28,10 @@ function Products() {
       </h2>
     );
   }
-
   if (state.status === Status.Error) {
     return (
       <h2 className="text-center text-red-500 text-xl mt-10 font-semibold">
-        Something went wrong...
+        Error..
       </h2>
     );
   }
